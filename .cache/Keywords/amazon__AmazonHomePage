@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "1C6473B4866A1817235C403E568CD23B",
+  "keywordClasses": [
+    {
+      "name": "amazon.AmazonHomePage",
+      "keywordMethods": [
+        {
+          "name": "navigateToAmazonHomePage",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

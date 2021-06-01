@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "7D6C29B2CE9849E3C6CE08BB6B8E1679",
+  "keywordClasses": [
+    {
+      "name": "amazon.CommonPageObjects",
+      "keywordMethods": [
+        {
+          "name": "searchForProductUsingMainSearchBar",
+          "parameters": [
+            {
+              "name": "productName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

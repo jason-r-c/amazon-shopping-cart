@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "4519A49E015933DB40737E2D1BA37E36",
+  "keywordClasses": [
+    {
+      "name": "amazon.ProductUpsellPage",
+      "keywordMethods": [
+        {
+          "name": "verifyProductInUpsellCart",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

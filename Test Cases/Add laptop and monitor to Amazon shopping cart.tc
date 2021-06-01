@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add laptop and monitor to Amazon shopping cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>928250e0-d187-4596-a5e6-5b34620a3cd7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d25bb842-93f5-4f35-a3d7-7416160ad3fe</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

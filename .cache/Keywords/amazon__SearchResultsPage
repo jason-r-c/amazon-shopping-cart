@@ -1,0 +1,81 @@
+{
+  "keywordFileContentHash": "88074E1BC2A1658A8B89C9B83BDED9B6",
+  "keywordClasses": [
+    {
+      "name": "amazon.SearchResultsPage",
+      "keywordMethods": [
+        {
+          "name": "confirmSearchResultsPageDisplayed",
+          "parameters": [
+            {
+              "name": "productName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Amazon uses the product name as the page title. Based on this unique value i decided to use that as opposed to\n\t * waiting for a specific element to become visible.\n\t */"
+        },
+        {
+          "name": "applySearchFilter",
+          "parameters": [
+            {
+              "name": "scrollToEl",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "clickEl",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Found that clicking the checkbox was causing location based issues, so decided to scroll to the element then click.\n\t */"
+        },
+        {
+          "name": "selectItemFromResultList",
+          "parameters": [
+            {
+              "name": "clickEl",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * I found that the \u00272020 Newest Dell Inspiron 15 3000 PC Laptop\u0027 text was the 1st result found. \n\t * Then this changed during test development.\n\t * Based on this change, i added a loop to try the next 3 pages, if no result found then end the test.\n\t * \n\t * Also found the result amount to change, so had to pick a more generic xpath query.\n\t * \n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

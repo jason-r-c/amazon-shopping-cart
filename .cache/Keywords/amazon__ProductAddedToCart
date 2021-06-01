@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "A9341540508538E9DB9151053340C766",
+  "keywordClasses": [
+    {
+      "name": "amazon.ProductAddedToCart",
+      "keywordMethods": [
+        {
+          "name": "verifyProductAddedToCart",
+          "parameters": [],
+          "javadoc": "/**\n\t * This would benefit from the try and catch block being broken out into 2 separate functions.\n\t * The current approach forces a timeout when using (uncessarily) when the verifyProductAddedToCart_onUpsellPage is used.\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

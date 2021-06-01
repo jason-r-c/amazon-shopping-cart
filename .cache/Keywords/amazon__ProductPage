@@ -1,0 +1,59 @@
+{
+  "keywordFileContentHash": "6F3AE72922FFE52D55A24BB608211B32",
+  "keywordClasses": [
+    {
+      "name": "amazon.ProductPage",
+      "keywordMethods": [
+        {
+          "name": "verifyPrice",
+          "parameters": [
+            {
+              "name": "expectedPrice",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Price changed a few times but kept to a standard variable.\n\t * What i could have done was create an array of \u0027acceptable\u0027 prices, then iterate over the acceptable list.\n\t */"
+        },
+        {
+          "name": "otherSellersAddToCartButton",
+          "parameters": [
+            {
+              "name": "otherSellerButton",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "primaryAddToCartButton",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyProductInSidesheetCart",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

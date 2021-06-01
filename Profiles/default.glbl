@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Navigate to Amazon home page.</description>
+      <initValue>'amazon.com'</initValue>
+      <name>amazonUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Wait up to 10 seconds for the page to load,</description>
+      <initValue>10</initValue>
+      <name>defaultPageTimeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Time it takes to interact with an element in the page</description>
+      <initValue>3</initValue>
+      <name>timeToInteractWithElement</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
